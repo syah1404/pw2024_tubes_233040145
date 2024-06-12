@@ -1,0 +1,60 @@
+/* Atur gaya untuk body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Gaya untuk header */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Gaya untuk form */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk list item di dalam form */
+form ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+form li {
+    margin-bottom: 15px;
+}
+
+/* Gaya untuk label */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Gaya untuk input */
+input[type="text"],
+input[type="file"] {
+    width: calc(100% - 20px); 
+    padding: 10px;
+}
+
+.btn {
+    background: #007BFF;
+    color: #f4f4f4;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #007Bbb;
+}
